@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glow App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="glow">
+			
+		<section class="panel panel-left panel-cover">
+		
+			<div id="perfil" class="block">
+				<img src="img/profile.jpg" alt="">
+				<h4>María Elvir</h4>
+				<p>Cosmetóloga</p>
+			</div>
+			
+			<div class="list media-list">
+				<ul>
+					<li>
+					  <a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+						  	<span class="material-symbols-outlined">home</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Inicio</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/products/" class="item-link item-content panel-close">
+						<div class="item-media">
+						  	<span class="material-symbols-outlined">category</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Categorías</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-symbols-outlined">favorite</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Favoritos</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-symbols-outlined">account_circle</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Perfil</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					</li>
+				</ul>
+			</div>
+			
+		
+		</section>
+		
+		
+	<div class="view view-main view-init">
+
+	<section data-name="home" class="page">
+
+	  <!-- Top Navbar -->
+	  <nav class="navbar">
+		<div class="navbar-bg"></div>
+		<div class="navbar-inner">
+			<div class="title">Glow App</div>
+			<div class="right">
+				<a href="#" class="link panel-open" data-panel="left">
+					<i class="material-icons">menu</i>
+				</a>
+			</div>
+		</div>
+	  </nav>
+
+
+		<section class="page-content">
+
+			<div id="home" class="block">
+
+				<p>Hola, <b>Maria!</b></p>
+				<h2>Que deseas comprar hoy?</h2>
+			</div>
+			
+			
+			<div class="row">
+				<article class="col">
+					<h2 class="block-title block-title-medium">Favorites</h2>
+				</article>
+				<article class="col text-align-right">
+					<h2 class="block-title link"><a href="/products/" class="link">See all</a>
+					</h2>
+				</article>
+			</div>
+			
+			
+			<div id="home-products" class="block">
+				
+				<article class="col-30">
+				<img src="img/SERUM.jpeg" alt="" class="img-fluid">
+				</article>
+				
+				<div class="swiper-container swiper-init" data-slides-per-view="2">
+				
+					<div class="swiper-wrapper">
+						<article class="swiper-slide">
+							<div class="card producto">
+								<div class="card-content card-content-padding">
+									<img src="img/aceite limpiador-min.jpg" alt="" class="img-fluid">
+									<h4 class="nombre-producto">Aceite limpiador</h4>
+									<p class="tipo-producto">Limpiador</p>
+								</div>
+								<div class="card-footer">
+									<p class="precio-producto">$10.55</p>
+									<a href="/info/">
+										<span class="material-icons">
+										add
+										</span>
+									</a>
+								</div>
+							</div>
+						</article>
+
+						<article class="swiper-slide">
+							<div class="card producto">
+								<div class="card-content card-content-padding">
+									<img src="img/ANTI MANCHAS-min.jpg" alt="" class="img-fluid">
+									<h4 class="nombre-producto">Crema anti-manchas</h4>
+									<p class="tipo-producto">Crema</p>
+								</div>
+								<div class="card-footer">
+									<p class="precio-producto">$3.95</p>
+									<a href="/crema/">
+										<span class="material-icons">
+										add
+										</span>
+									</a>
+								</div>
+							</div>
+						</article>
+						
+						<article class="swiper-slide">
+							<div class="card producto">
+								<div class="card-content card-content-padding">
+									<img src="img/volumizador-min.jpg" alt="" class="img-fluid">
+									<h4 class="nombre-producto">Voluminizador de labios</h4>
+									<p class="tipo-producto">Cuidado de labios</p>
+								</div>
+								<div class="card-footer">
+									<p class="precio-producto">$2.10</p>
+									<a href="#">
+										<span class="material-icons">
+										add
+										</span>
+									</a>
+								</div>
+							</div>
+						</article>
+						
+						<article class="swiper-slide">
+							<div class="card producto">
+								<div class="card-content card-content-padding">
+									<img src="img/serum hidratante-min.jpg" alt="" class="img-fluid">
+									<h4 class="nombre-producto">Serum hidratante</h4>
+									<p class="tipo-producto">Serum</p>
+								</div>
+								<div class="card-footer">
+									<p class="precio-producto">$4.30</p>
+									<a href="#">
+										<span class="material-icons">
+										add
+										</span>
+									</a>
+								</div>
+								
+							</div>
+						</article>
+					</div>
+					
+				</div>
+				
+			</div>
+
+
+		</section> <!--/page-content -->
+
+	</section> <!--/page -->
+		
+		<!-- toolbar -->
+		
+		<nav class="toolbar tabbar tabbar-labels toolbar-bottom">
+			<div class="toolbar-inner">
+				<a href="/home/" class="link">
+					<i class="material-icons">home</i>
+					<span class="tabbar-label">Home</span>
+				</a>
+				<a href="#" class="link">
+					<i class="material-icons">category</i>
+					<span class="tabbar-label">category</span>
+				</a>
+				<a href="/products/" class="link">
+					<i class="material-icons">favorite</i>
+					<span class="tabbar-label">Favorite</span>
+				</a>
+				<a href="#" class="link">
+					<i class="material-icons">account_circle</i>
+					<span class="tabbar-label">Profile</span>
+				</a>
+			</div>
+		</nav>
+				
+		
+		<!-- /toolbar -->
+		
+	</div><!--/view -->
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+	
+	
+</body>
+</html>

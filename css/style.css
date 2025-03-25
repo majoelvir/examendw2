@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+	
+	--f7-navbar-link-color: #000; 
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	--color-coral: #ff8552 ;
+	--color-negro:#000;
+	--fondo-gris:#e6e6e6;
+	--color-rosa: #FFC7BE;
+}
+
+body{
+	font-family: "Poppins", sans-serif;
+	color: var(--color-negro);
+}
+p{
+	margin: 2px 0;
+}
+
+#perfil{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 20px 30px;
+}
+#perfil img{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+}
+
+.panel-left .item-media span{
+	color: var(--color-coral);
+}
+.panel-left .item-title{
+	font-size: 14px;
+}
+#home-products img{
+	width: 90%;
+	height: 40%;
+	align-content: center;
+}
+#home .cleansing-home{
+	font-size: 30px;
+	font-weight: 500;
+	color: var(--color-negro);
+}
+
+.cleansing-home img{
+	width: 100%;
+	height: auto;
+}
+.block-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(color-negro);
+}
+.block-title-medium{
+	color: var(--color-negro);
+}
+.toolbar-bottom{
+	color: var(--color-negro);
+}
+.block-title-medium{
+	font-size: 22px;
+	padding-bottom: 10px;
+ 	margin-bottom: 0;
+  	line-height: 16px;
+}
+#products{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 20px 30px;
+	font-family: "Poppins", sans-serif;
+}
+#products .img-fluid{
+	width: 100%; 
+    max-width: 100%; 
+    height: auto;
+padding: 20px;
+}
+
+
+.nombre-producto{
+	font-size: 15px;
+}
+.tipo-producto{
+	color: var(--color-gris);
+	font-weight: 400;
+}
+.precio-producto{
+	color: var(--color-negro);
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.toolbar i{
+	color: var(--color-rosa);
+}
+.toolbar .tabbar-label{
+	font-size: 12px;
+}
+
+#products .tipo-producto{
+	font-size: 75%;
+	color: var(--color-negro);
+}
+
+#products .nombre-producto{
+	margin-top: 20px;
+}
+
+
+#toolbar-tab .tab-link{
+	font-size: 12px;
+	text-transform: inherit;
+	color: var(--color-negro);
+}
+
+#products h3{
+	font-size: 40px;
+	text-align: center;
+}
+.link-icon{
+	text-transform: inherit;
+	font-weight: 400;
+}
+.link-icon span{
+	vertical-align: inherit;
+}
+
+.precio-producto.medium{
+	font-size: 20px;
+	margin-top: 0;
+}
+
+
+
+
+
+
+
+
